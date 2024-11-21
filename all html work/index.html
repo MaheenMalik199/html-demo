@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Form</title>
+
+    PERIODIC TABLE'S STYLING
+    <style>
+        .color1{
+            background-color:#399bf2
+        }
+    </style>
+    <style>
+        .color2{
+            background-color: #33cff6;
+        }
+    </style>
+    <style>
+        .color3{
+            background-color: #f65dc2;
+        }
+    </style>
+    <style>
+        .color4{
+            background-color: #a955f1;
+        }
+    </style>
+    <style>
+        .color5{
+            background-color: #f4ad41;
+        }
+    </style>
+    <style>
+        .color6{
+            background-color: #53f662;
+        }
+    </style>
+    <style>
+        .color7{
+            background-color: #f3eb49;
+        }
+    </style>
+    <style>
+        .color8{
+            background-color: #f6bb0d;
+        }
+    </style>
+    <style>
+        .color9{
+            background-color: #bbf609;
+        }
+    </style>
+    <style>
+        .color10{
+            background-color: #f6090d;
+        }
+    </style>
+</head>
+
+<body> 
+     SIGN UP INFORMATION FORM 
+    <style>
+        .green {
+            color: #0ca877;
+        }
+    </style>
+    <form style="border: outset; background-color: rgb(2 39 59); width: 500px;margin-left: 200px;padding: 40px;">
+        <h1
+            style="color: rgb(210, 218, 226); font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 50px; ;">
+            SIGN UP INFORMATION</h1>
+        <hr style="width: 500px; border: 5px solid rgb(235, 241, 247); text-align: right;">
+        <br><br>
+        <label for="name" style="color: blanchedalmond;">First Name: </label>
+        <input type="text" name="name" placeholder="First Name" maxlength="10"><br><br>
+        <label for="name" style="color: blanchedalmond;">Last Name: </label>
+        <input type="text" name="name" placeholder="Last Name" maxlength="10"><br><br>
+        <label for="Date of Birth" style="color: blanchedalmond;">Date of Birth: </label>
+        <select name="date">
+            <option value="Date">Date</option>
+        </select>
+        <select name="month">
+            <option value="Month">Month</option>
+        </select>
+        <select name="year">
+            <option value="year">Year</option>
+        </select><br><br>
+        <label for="GENDER" style="color: blanchedalmond;">Gender: </label>
+        <input type="radio" name="name" value="Male" style="color: blanchedalmond;"><label for="male"
+            style="color: blanchedalmond;">Male</label>
+        <input type="radio" name="name" value="Male" style="color: blanchedalmond;"><label for="female"
+            style="color: blanchedalmond;">Female</label><br><br>
+        <label for="country" style="color: blanchedalmond;">Country: </label>
+        <select name="country">
+            <option value="country">Country</option>
+        </select> <br><br>
+        <label for="email" style="color: blanchedalmond;">E-mail: </label>
+        <input type="email" name="email address" placeholder="Enter E-mail"><br><br>
+        <label for="phone number" style="color: blanchedalmond;">Phone: </label>
+        <input type="number" name="phone number" placeholder="Enter Phone"><br><br>
+        <label for="Password" style="color: blanchedalmond;">Password: </label>
+        <input type="password" name="password"><br><br>
+        <label for="password" style="color: blanchedalmond;">Confirm Password</label>
+        <input type="password" name="password"><br>
+        <p style="padding: 10px;">
+            <input type="checkbox" name="terms and condition">
+            <label for="terms" style="color: blanchedalmond;">I Agree to the Terms of use</label>
+        </p><br>
+        <input type="submit" name="submit" value="Submit" style="background-color: green; color: aliceblue;">
+        <input type="button" name="cancel" value="cancel" style="background-color: red; color: aliceblue;">
+
+
+    </form> <br><br><br>
+    <hr>
+
+
+
+  <!-- CREATE ACCOUNT FORM
+    <form style="border: ridge rgb(7, 76, 94);background-color: #dde0e7; padding-left: 20px;">
+        <center>
+            <h1> Create Account</h1>
+        </center>
+        <hr>
+        <label class="green">First Name*</label><input type="text" name="first name"
+            placeholder="enter your first name"> <label class="green">Last Name*</label> <input type="text"
+            name="last name" placeholder="enter your last name"><br><br>
+        <label class="green">Email*</label> <input type="email" name="email address"
+            placeholder="enter your email"><br><br>
+        <label class="green">Password*</label> <input type="password" name="password" placeholder="enter your password">
+        <label class="green">Confirm Password*</label><input type="password" name="password"
+            placeholder="enter your password again"><br><br><label class="green">Gender</label><br><br><input
+            type="radio" name="gender">Male <input type="radio" name="gender">Female <br><br> <label
+            class="green">Hobbies </label><input type="checkbox" name="hobbies">Music <input type="checkbox"
+            name="hobbies"> Sports <input type="checkbox" name="hobbies"> Travel <input type="checkbox" name="hobbies">
+        Movies <br><br>
+        <label class="green">Source of Income</label> <select name="income">
+            <option value="employes">Employed</option>
+            <option value="own business">Business</option>
+            <option value="teacher">Teacher</option>
+        </select> <br><br>
+        <label class="green">Income</label> <br> <input type="range" name="income"><span
+            style="background-color:#2dc796; border-radius: 3px; padding: 5px; color: white;">20k</span> <br><br>
+        <label class="green">Upload Profile Picture </label><input type="file" name="picture"><br><br>
+        <label class="green">Age</label><input type="text" name="age"><br><br>
+        <label class="green">Bio</label> <br><textarea name="bio" cols="80" rows="5"></textarea> <br>
+        <hr><br>
+        <input
+            style="color: white; background-color: #2dc796; margin-left: 550px; border:groove rgba(150, 152, 153, 0.623);"
+            type="button" name="create" value="Create"></form>
+        <br><br><br> -->
+
+
+          GOOGLE MAP
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14479.580868409366!2d67.0383774871582!3d24.867428099999987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33e8fb8859653%3A0x22f69c58064e603b!2sKashee&#39;s%20Beauty%20Parlour!5e0!3m2!1sen!2s!4v1730077182657!5m2!1sen!2s"
+            width="600"
+             height="450" 
+             style="border:0;"
+             allowfullscreen="" 
+             loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe><br><br><br> 
+
+
+          <!-- YOUTUBE VIDEO
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/HcOc7P5BMi4?si=UvC0dGForDlMpzT5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <br> -->
+
+
+     PERIODIC TABLE
+<center>
+    
+<h1><u class="color3">Periodic Table of the Element</u></h1>
+<table border="0" style="empty-cells: hide;" style="border-collapse: collapse;">
+    <tr>
+        <td class="color1">1<center><sup>H</sup></center>Hydrogen</td>
+        <td colspan="16"></td>
+        <td class="color8">2<center><sup>He</sup></center>Hellium</td>
+    </tr>
+    <tr>
+        <td class="color3">3<center><sup>Li</sup></center>Lithium</td>
+        <td class="color4">4<center><sup>Be</sup></center>Beryllium</td>
+        <td colspan="10"></td>
+        <td class="color6">5<center> <sup>B</sup></center>Boron</td>
+        <td class="color1">6<center><sup>C</sup></center>Carbon</td>
+        <td class="color1">7<center><sup>N</sup></center>Nitrogen</td>
+        <td class="color1">8<center><sup>O</sup></center>Oxygen</td>
+        <td class="color7">9<center><sup>F</sup></center>Fluorine</td>
+        <td class="color8">10<center><sup>Ne</sup></center>Neon</td>
+    </tr>
+    <tr>
+        <td class="color3">11<center><sup>Na</sup></center>Sodium</td>
+        <td class="color4">12<center><sup>Mg</sup></center>Magnessium</td>
+        <td colspan="10"></td>
+        <td class="color5">13<center><sup>Al</sup></center>Aluminium</td>
+        <td class="color6">14<center><sup>Si</sup></center>Silicon</td>
+        <td class="color1">15<center><sup>P</sup></center>Phosphorus</td>
+        <td class="color1">16<center><sup>S</sup></center>Sulfur</td>
+        <td class="color7">17<center><sup>Cl</sup></center>Chlorine</td>
+        <td class="color8">18<center><sup>Ar</sup></center>Argon</td>
+    </tr>
+    <tr>
+        <td class="color3">19<center><sup>K</sup></center>Potassium</td>
+        <td class="color4">20<center><sup>Ca</sup></center>Calcium</td>
+        <td class="color2">21<center><sup>Sc</sup></center>Scandium</td>
+        <td class="color2">22<center><sup>Ti</sup></center>Titanium</td>
+        <td class="color2">23<center><sup>V</sup></center>Vanadium</td>
+        <td class="color2">24<center><sup>Cr</sup></center>Chromium</td>
+        <td class="color2">25<center><sup>Mn</sup></center>Manganese</td>
+        <td class="color2">26<center><sup>Fe</sup></center>Iron</td>
+        <td class="color2">27<center><sup>Co</sup></center>Cobalt</td>
+        <td class="color2">28<center><sup>Ni</sup></center>Nickle</td>
+        <td class="color2">29<center><sup>Cu</sup></center>Copper</td>
+        <td class="color2">30<center><sup>Zn</sup></center>Zinc</td>
+        <td class="color5">31<center><sup>Ga</sup></center>Gallium</td>
+        <td class="color6">32<center><sup>Ge</sup></center>Gemanium</td>
+        <td class="color6">33<center><sup>As</sup></center>Arsenic</td>
+        <td class="color1">34<center><sup>Se</sup></center>Selenium</td>
+        <td class="color7">35<center><sup>Br</sup></center>Bromine</td>
+        <td class="color8">36<center><sup>Kr</sup></center>Krypton</td>
+    </tr>
+    <tr>
+        <td class="color3">37<center><sup>Rb</sup></center>Rubedium</td>
+        <td class="color4">38<center><sup>Sr</sup></center>Strontium</td>
+        <td class="color2">39<center><sup>Y</sup></center>Yttrium</td>
+        <td class="color2">40<center><sup>Zr</sup></center>zicronium</td>
+        <td class="color2">41<center><sup>Nb</sup></center>Niobium</td>
+        <td class="color2">42<center><sup>Mo</sup></center>Molybdenum</td>
+        <td class="color2">43<center><sup>Tc</sup></center>Technotium</td>
+        <td class="color2">44<center><sup>Ru</sup></center>Ruthenium</td>
+        <td class="color2">45<center><sup>Rh</sup></center>Rhoduim</td>
+        <td class="color2">46<center><sup>Pd</sup></center>Palladium</td>
+        <td class="color2">47<center><sup>Ag</sup></center>>Silver</td>
+        <td class="color2">48<center><sup>Cd</sup></center>Cdium</td>
+        <td class="color5">49<center><sup>In</sup></center>Indium</td>
+        <td class="color5">50<center><sup>Sn</sup></center>Tin</td>
+        <td class="color6">51<center><sup>Sb</sup></center>Antimony</td>
+        <td class="color6">52<center><sup>Te</sup></center>Tellorium</td>
+        <td class="color7">53<center><sup>I</sup></center>Iodine</td>
+        <td class="color8">54<center><sup>Xe</sup></center>Xenon</td>
+    </tr>
+        <td class="color3">55<center><sup>Cs</sup></center>Cecium</td>
+        <td class="color4">56<center><sup>Ba</sup></center>arium</td>
+        <td class="color9">57-71<br></td>
+        <td class="color2">72<center><sup>Hf</sup></center>Hafnium</td>
+        <td class="color2">73<center><sup>Ta</sup></center>Tantaium</td>
+        <td class="color2">74<center><sup>W</sup></center>Tungsten</td>
+        <td class="color2">75<center><sup>Re</sup></center>Rhenium</td>
+        <td class="color2">76<center><sup>Os</sup></center>Ruthenium</td>
+        <td class="color2">77<center><sup>Ir</sup></center>Rhoduim</td>
+        <td class="color2">78<center><sup>Pt</sup></center>Palladium</td>
+        <td class="color2">79<center><sup>Au</sup></center>Silver</td>
+        <td class="color2">80<center><sup>Hg</sup></center>Cdium</td>
+        <td class="color5">81<center><sup>TI</sup></center>Indium</td>
+        <td class="color5">82<center><sup>Pb</sup></center>Tin</td>
+        <td class="color5">83<center><sup>Bi</sup></center>Antimony</td>
+        <td class="color6">84<center><sup>Po</sup></center>Tellorium</td>
+        <td class="color7">85<center><sup>At</sup></center>Iodine</td>
+        <td class="color8">86<center><sup>Rn</sup></center>Xenon</td>
+    </tr>
+</tr>
+<td class="color3">87<center><sup></sup>Fr</center>Cecium</td>
+<td class="color4">88<center><sup>Ra</sup></center>Barium</td>
+<td class="color10">89-103<br></td>
+<td class="color2">104<center><sup>Rf</sup></center>Hafnium</td>
+<td class="color2">105<center><sup>Db</sup></center>Tantaium</td>
+<td class="color2">106<center><sup>Sg</sup></center>Tungsten</td>
+<td class="color2">107<center><sup>Bh</sup></center>Rhenium</td>
+<td class="color2">108<center><sup>Hs</sup></center>Ruthenium</td>
+<td class="color2">109<center><sup>Mt</sup></center>Rhoduim</td>
+<td class="color2">110<center><sup>Ds</sup></center>Palladium</td>
+<td class="color2">111<center><sup>Rg</sup></center>Silver</td>
+<td class="color2">112<center><sup>Cn</sup></center>Cdium</td>
+<td class="color5">113<center><sup>Uut</sup></center>Indium</td>
+<td class="color5">114<center><sup>FI</sup></center>Tin</td>
+<td class="color5">115<center><sup>Uup</sup></center>Antimony</td>
+<td class="color5">116<center><sup>Lv</sup></center>Tellorium</td>
+<td class="color7">117<center><sup>Uus</sup></center>Iodine</td>
+<td class="color8">118<center><sup>Uuo</sup></center>Xenon</td>
+</tr>
+</table>
+</center>
+<br>
+<center>
+<table border="1" style="border-collapse: collapse;">
+    <tr>
+    <td class="color9">57<center><sup>Fr</sup></center>Cecium</td>
+    <td class="color9">58<center><sup>Ra</sup></center>Barium</td>
+    <td class="color9">59<center><sup>Rf</sup></center>Hafnium</td>
+    <td class="color9">60<center><sup>Db</sup></center>Tantaium</td>
+    <td class="color9">61<center><sup>Sg</sup></center>Tungsten</td>
+    <td class="color9">62<center><sup>Bh</sup></center>Rhenium</td>
+    <td class="color9">63<center><sup>Hs</sup></center>Ruthenium</td>
+    <td class="color9">64<center><sup>Mt</sup></center>Rhoduim</td>
+    <td class="color9">65<center><sup>Ds</sup></center>Palladium</td>
+    <td class="color9">66<center><sup>Rg</sup></center>>Silver</td>
+    <td class="color9">67<center><sup>Cn</sup></center>>Cdium</td>
+    <td class="color9">68<center><sup>Uut</sup></center>>Indium</td>
+    <td class="color9">69<center><sup>FI</sup></center>Tin</td>
+    <td class="color9">70<center><sup>Uup</sup></center>Antimony</td>
+    <td class="color9">71<center><sup>Lv</sup></center>Tellorium</td>
+    </tr>
+    <tr>
+        <td class="color10">89<center><sup>Ac</sup></center>Cecium</td>
+        <td class="color10">90<center><sup>Th</sup></center>Barium</td>
+        <td class="color10">91<center><sup>Pa</sup></center>Hafnium</td>
+        <td class="color10">92<center><sup>U</sup></center>Tantaium</td>
+        <td class="color10">93<center><sup>Np</sup></center>Tungsten</td>
+        <td class="color10">94<center><sup>Pu</sup></center>Rhenium</td>
+        <td class="color10">95<center><sup>Am</sup></center>Ruthenium</td>
+        <td class="color10">96<center><sup>Cm</sup></center>Rhoduim</td>
+        <td class="color10">97<center><sup>Bk</sup></center>Palladium</td>
+        <td class="color10">98<center><sup>Cf</sup></center>Silver</td>
+        <td class="color10">99<center><sup>Es</sup></center>Cdium</td>
+        <td class="color10">100<center><sup>Fm</sup></center>Indium</td>
+        <td class="color10">101<center><sup>Md</sup></center>Tinhgfh</td>
+        <td class="color10">102<center><sup>No</sup></center>>Antimony</td>
+        <td class="color10">103<center><sup>Lr</sup></center>Tellorium</td>
+        </tr>
+</table>
+</center>
+
+
+<!-- TABLE:1
+<table border="1" style="border-collapse: collapse;">
+    <tr style="background-color: rgb(216, 172, 26);">
+        <td>Name</td>
+        <td>Jib Title</td>
+        <td>Email address</td>
+
+    </tr>
+    <tr>
+        <td>Anna Fitzgerald</td>
+        <td>Staff Writer</td>
+        <td>example@company.com</td>
+    </tr>
+    <tr>
+        <td>JJohn Smith</td>
+        <td>Marketing Manager</td>
+        <td>example2@company.com</td>
+    </tr>
+    <tr>
+        <td>Zendaya Grace</td>
+        <td>CEO</td>
+        <td>example2@company.com</td>
+    </tr>
+</table> <hr> -->
+
+
+TABLE:2
+   A test table with merged cells
+<table border="1" style="border-collapse: collapse;">
+    <tr>
+        <td rowspan="2>"></td>
+        <td colspan="2"><strong>average</strong></td>
+        <td rowspan="2"><strong>Red eyes</strong></td>
+        
+    </tr>
+    <tr>
+        <td><strong>height</strong></td>
+        <td><strong>weight</strong></td>
+    </tr>
+    <tr>
+        <td><strong>Male</strong></td>
+        <td>1.9</td>
+        <td>0.003</td>
+        <td>40%</td>
+    </tr>
+    <tr>
+        <td><strong>Female</strong></td>
+        <td>1.7</td>
+        <td>0.002</td>
+        <td>43%</td>
+    </tr>
+</table> <hr>
+<br> 
+
+ TABLE:3
+<table border="1">
+    <tr>
+        <td rowspan="3"><strong>Day</strong></td>
+        <td colspan="3"><strong>Seminar</strong></td>
+    </tr>
+    <tr>
+        <td colspan="2"><strong>Schedule</strong></td>
+        <td rowspan="2" colspan="2"><strong>Topic</strong></td>
+    </tr>
+    <tr>
+        <td><strong>Begin</strong></td>
+        <td><strong>End</strong></td>
+    </tr>
+    <tr>
+        <td rowspan="2">Monday</td>
+        <td rowspan="2">8:00 a.m.</td>
+        <td rowspan="2">5:00 p.m.</td>
+        <td>Introduction to XML</td>
+    </tr>
+    <tr>
+        <td>Validity:DTD and Relax NG</td>
+    </tr>
+    <tr>
+        <td rowspan="3">Tuesday</td>
+        <td>8:00 a.m.</td>
+        <td>11:00 a.m.</td>
+        <td colspan="2">XPath</td>
+    </tr>
+    <tr>
+        <td>11:a.m</td>
+        <td>2:00p.m.</td>
+        <td rowspan="2">XSL Transformations</td>
+        
+    </tr>
+    <tr>
+        <td>2:00 p.m.</td>
+        <td>5:00 p.m.</td>
+    </tr>
+    <tr>
+        <td>Wednesday</td>
+        <td>8:00 a.m.</td>
+        <td>12:00 p.m.</td>
+        <td>XSL Formating Objects</td>
+    </tr>
+</table>
+
+</body>
+
+
+</html>
